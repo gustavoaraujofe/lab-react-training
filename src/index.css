@@ -1,13 +1,84 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.info-card {
+  line-height: 8px;
+  font-size: 14px;
+}
+
+.img-card {
+  width: 130px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.creditCard {
+  width: 280px;
+  height: 150px;
+  border-radius: 4%;
+  margin-right: 30px;
+}
+
+.bandeira {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.bandeira img {
+  height: 21px;
+}
+
+.card-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.expires {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  font-size: 12px;
+  margin-top: -8px;
+}
+
+.expires p {
+  margin-left: 15px;
+}
+
+.name {
+  margin-top: -15px;
+  margin-left: 35px;
+  font-size: 12px;
+}
+
+.driver-card {
+  width: 80%;
+  height: 150px;
+  background-color: rgb(69, 94, 181);
+  color: white;
+  line-height: 10px;
+}
+
+.driver-card-img {
+  height: 100px;
+  width: 100px;
+}
+
+.driver-card-img img {
+  height: 100px;
+  width: auto;
+  object-fit: cover;
 }
