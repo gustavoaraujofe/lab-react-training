@@ -1,5 +1,3 @@
-
-
 function IdCard(props) {
   let date = props.birth.toDateString()
   let metros = props.height/100

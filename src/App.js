@@ -6,6 +6,13 @@ import BoxColor from './components/BoxColor';
 import Cards from './components/Cards';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
+import Carousel from './components/Carousel';
+import NumbersTables from './components/NumbersTable';
+import FaceBook from './components/FaceBook';
+import SignupPage from './components/SignupPage';
 
 function App() {
   return (
@@ -45,7 +52,7 @@ function App() {
       <div>
         <Cards />
       </div>
-      <div>
+      <div className="h2 m-lg-4">
         <Rating>0</Rating>
         <Rating>1.49</Rating>
         <Rating>1.5</Rating>
@@ -72,6 +79,34 @@ function App() {
             licensePlate: 'BE33ER',
           }}
         />
+      </div>
+      <div className="m-4 w-25">
+        <LikeButton />
+      </div>
+      <div className="m-4">
+        <ClickablePicture />
+      </div>
+      <div className="m-4">
+        <Dice />
+      </div>
+      <div className="m-4 w-50">
+        <Carousel
+          imgs={[
+            'https://randomuser.me/api/portraits/women/1.jpg',
+            'https://randomuser.me/api/portraits/men/1.jpg',
+            'https://randomuser.me/api/portraits/women/2.jpg',
+            'https://randomuser.me/api/portraits/men/2.jpg',
+          ]}
+        />
+      </div>
+      <div className="container d-flex container-box-number flex-wrap">
+        <NumbersTables limit={12} />
+      </div>
+      <div className="m-3">
+        <FaceBook />
+      </div>
+      <div className="m-4 w-75">
+        <SignupPage />
       </div>
     </div>
   );

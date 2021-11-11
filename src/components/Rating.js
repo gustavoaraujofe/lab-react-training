@@ -6,7 +6,7 @@ function Rating(props) {
   arr.fill('★', 0, number);
 
   return (
-    <p className="h2 m-lg-4">
+    <p>
       {arr[0]}
       {arr[1]}
       {arr[2]}

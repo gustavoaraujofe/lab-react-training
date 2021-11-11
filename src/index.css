@@ -82,3 +82,15 @@ code {
   width: auto;
   object-fit: cover;
 }
+
+.bloco-number {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-box-number {
+  width: 35%;
+}
